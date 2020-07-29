@@ -21,7 +21,7 @@ app.use("/", Employeeroutes);
 
 // var port = process.env.Port || 5000;
 
-var server_port = process.env.YOUR_PORT || process.env.PORT || 3000;
+var server_port = process.env.YOUR_PORT || process.env.PORT || 5000;
 // var server_host = process.env.YOUR_HOST || '0.0.0.0';
 
 app.listen(server_port, function () {
